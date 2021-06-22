@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://th.bing.com/th/id/R9ad0923a3bc0fac6657020df0daf929c?rik=ddp29moNsvK9ZA&pid=ImgRaw);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav{
+    width:90%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    cursor:pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#intro {
+    color: white;
+    margin-top: 4em;
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+    #intro i {
+        font-family: fangsong;
+        color: blanchedalmond;
+    }
+#contact{
+    width:100%;
+    height:300px;
+    background-color:black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#projects{
+    margin-top:4em;
+    margin-bottom:3em;
+}
+.names {
+    text-align: center;
+    padding-top: 1em;
+    font-family: cursive;
+    letter-spacing: 3px;
 }
