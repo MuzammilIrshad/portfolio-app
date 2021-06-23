@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
     "\\src",
     "\\src\\Components",
     "\\src\\Images"
   ],
-  "SelectedNode": "\\src\\Components\\Skills.js",
+  "SelectedNode": "\\.github\\workflows\\main.yml",
   "PreviewInSolutionExplorer": false
 }

@@ -31,12 +31,12 @@ jobs:
         cmd: install
         
     - name: Build React App
-      run: npm run build
+      run: sudo npm run build
       
     # Install Surge
     - name: Install Surge
-      run: npm install --global surge
+      run: sudo npm install --global surge --unsafe-prem=true --allow-root
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./ build http://profilemz.surge.sh/  ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://profilemz.surge.sh/  ${{secrets.SURGE_TOKEN}}
