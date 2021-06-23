@@ -16,9 +16,9 @@ export default function NavBar() {
                    
                 </Nav>
                 <Nav>
-                    <Nav.Link href="#features"><h2 className="links">Features</h2></Nav.Link>
-                    <Nav.Link href="#projects"><h2 className="links">Features</h2></Nav.Link>
-                    <Nav.Link href="#deets"><h2 className="links">Features</h2></Nav.Link>
+                    <Nav.Link href="#skills"><a className="links">Skills</a></Nav.Link>
+                    <Nav.Link href="#projects"><a className="links">Projects</a></Nav.Link>
+                    <Nav.Link href="#contact"><a className="links">Contact</a></Nav.Link>
                    
                 </Nav>
             </Navbar.Collapse>

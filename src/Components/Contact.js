@@ -6,15 +6,17 @@ import { FaFacebook } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { GiEarthAmerica } from 'react-icons/gi';
+import profile from '../Images/profile.jpeg';
 export default function Contact() {
     return (
         <div id="contact">
+            <hr/>
             <Container>
                 <Row>
-                    <Col sm={12} lg={3}>
-                       
+                    <Col xs={6} lg={3} >
+                        <img src={profile} style={{ borderRadius: "50%", width: "200px", height: "200px", alignContent: "center" }} />
                     </Col>
-                    <Col xs={6} lg={3}>
+                    <Col xs={6} lg={3} style={{ margin: "0 auto"} }>
                        
                         <Card
 
@@ -62,8 +64,10 @@ export default function Contact() {
                                 <Card.Title><GiEarthAmerica style={{ color: "#c92f3d82", height: "30px", width: "80px", marginBottom: "1em" }} /><br />
                                     <br />
                                     <FaFacebook style={{ color: "blue", height: "30px", width: "80px", marginLeft:"-0.8em", marginBottom: "1em", marginRight: "-2em" }} />
-                                    <SiFiverr style={{ color: "green", height: "30px", width: "80px", marginBottom: "1em", marginRight:"-2em" }} />
-                                    <SiGithub style={{ color: "black", height: "30px", width: "80px", marginBottom: "1em" }} />
+                                    <SiFiverr style={{ color: "green", height: "30px", width: "80px", marginBottom: "1em", marginRight: "-2em" }} />
+                                    <a href="https://github.com/MuzammilIrshad">
+                                        <SiGithub style={{ color: "black", height: "30px", width: "80px", marginBottom: "1em" }} />
+                                    </a>
                                 </Card.Title>
 
                             </Card.Body>
