@@ -18,7 +18,7 @@ export default function NavBar() {
                 <Nav>
                     <Nav.Link href="#skills"><a className="links">Skills</a></Nav.Link>
                     <Nav.Link href="#projects"><a className="links">Projects</a></Nav.Link>
-                    <Nav.Link href="#contact"><a className="links">Contact</a></Nav.Link>
+                   
                    
                 </Nav>
             </Navbar.Collapse>
